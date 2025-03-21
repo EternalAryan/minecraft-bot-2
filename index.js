@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer')
 const cmd = require('mineflayer-cmd').plugin
 const fs = require('fs');
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 let rawdata = fs.readFileSync('config.json');
 let data = JSON.parse(rawdata);
 var lasttime = -1;
